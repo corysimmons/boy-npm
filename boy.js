@@ -11,6 +11,9 @@ if(destination) {
   fs.isEmpty(destination, function(empty) {
     if(empty) {
       download('corysimmons/boy', destination, function() {
+        fs.unlinkSync(destination +'/LICENSE');
+        fs.unlinkSync(destination +'/README.md');
+        fs.unlinkSync(destination +'/img/.keep');
         console.log('Successfully created Boy project at '+ process.cwd() +'/'+ destination);
       });
     } else {
@@ -23,6 +26,9 @@ if(destination) {
   fs.isEmpty(destination, function(empty) {
     if(empty) {
       download('corysimmons/boy', '.', function() {
+        fs.unlinkSync(destination +'/LICENSE');
+        fs.unlinkSync(destination +'/README.md');
+        fs.unlinkSync(destination +'/img/.keep');
         console.log('Successfully created Boy project at '+ process.cwd());
       });
     } else {
