@@ -17,7 +17,7 @@ if(destination) {
         console.log('Successfully created Boy project at '+ process.cwd() +'/'+ destination);
       });
     } else {
-      console.log(process.cwd() +'/'+ destination +' is not empty. Please create your project in an empty directory.');
+      console.log(destination +' is not empty. Please create your project in an empty directory.');
     }
   });
 
@@ -32,7 +32,7 @@ if(destination) {
         console.log('Successfully created Boy project at '+ process.cwd());
       });
     } else {
-      console.log(process.cwd() +'/'+ destination +' is not empty. Please create your project in an empty directory.');
+      console.log(destination +' is not empty. Please create your project in an empty directory.');
     }
   });
 

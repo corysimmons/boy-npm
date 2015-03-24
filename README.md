@@ -8,5 +8,5 @@
 
 
 ## Usage
-- `boy new my-project` or...
-- `boy new .` to create a Boy project in current directory.
+- `boy my-project` or...
+- `boy .` to create a Boy project in current directory.
