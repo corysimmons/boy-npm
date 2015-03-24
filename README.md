@@ -1,5 +1,8 @@
 # boy-npm
 
+<img src="https://img.shields.io/npm/v/boy.svg">
+<img src="http://img.shields.io/npm/dm/boy.svg">
+
 [npm package](https://www.npmjs.com/package/boy) for easily creating new [Boy](https://github.com/corysimmons/boy) projects.
 
 
