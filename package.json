@@ -1,6 +1,6 @@
 {
   "name": "boy",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Easily create new Boy projects.",
   "main": "boy.js",
   "repository": {
