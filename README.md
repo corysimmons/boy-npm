@@ -1,5 +1,7 @@
 # boy-npm
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/corysimmons/boy-npm.svg)](https://greenkeeper.io/)
+
 <img src="https://img.shields.io/npm/v/boy.svg">
 <img src="http://img.shields.io/npm/dm/boy.svg">
 
