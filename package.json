@@ -23,7 +23,13 @@
   "homepage": "https://github.com/corysimmons/boy-npm",
   "dependencies": {
     "download-github-repo": "^0.1.3",
-    "extfs": "0.0.7"
+    "extfs": "0.0.7",
+    "snyk": "^1.54.1"
   },
-  "bin": "./boy.js"
+  "bin": "./boy.js",
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
